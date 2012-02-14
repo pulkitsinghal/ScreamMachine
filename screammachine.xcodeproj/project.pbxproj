@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CB365614EB18CC00C50A61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB365514EB18CC00C50A61 /* UIKit.framework */; };
+		A7CB365814EB18CC00C50A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB365714EB18CC00C50A61 /* Foundation.framework */; };
+		A7CB365A14EB18CC00C50A61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB365914EB18CC00C50A61 /* CoreGraphics.framework */; };
+		A7CB366014EB18CC00C50A61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7CB365E14EB18CC00C50A61 /* InfoPlist.strings */; };
+		A7CB366214EB18CC00C50A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CB366114EB18CC00C50A61 /* main.m */; };
+		A7CB366614EB18CC00C50A61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CB366514EB18CC00C50A61 /* AppDelegate.m */; };
+		A7CB366914EB18CC00C50A61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CB366814EB18CC00C50A61 /* ViewController.m */; };
+		A7CB366C14EB18CC00C50A61 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CB366A14EB18CC00C50A61 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7CB365114EB18CC00C50A61 /* screammachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screammachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CB365514EB18CC00C50A61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7CB365714EB18CC00C50A61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7CB365914EB18CC00C50A61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7CB365D14EB18CC00C50A61 /* screammachine-Info.plist */ = {isa = PBXFileReference; path = "screammachine-Info.plist"; sourceTree = "<group>"; };
+		A7CB365F14EB18CC00C50A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7CB366114EB18CC00C50A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7CB366314EB18CC00C50A61 /* screammachine-Prefix.pch */ = {isa = PBXFileReference; path = "screammachine-Prefix.pch"; sourceTree = "<group>"; };
+		A7CB366414EB18CC00C50A61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7CB366514EB18CC00C50A61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7CB366714EB18CC00C50A61 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A7CB366814EB18CC00C50A61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7CB366B14EB18CC00C50A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CB364E14EB18CC00C50A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CB365614EB18CC00C50A61 /* UIKit.framework in Frameworks */,
+				A7CB365814EB18CC00C50A61 /* Foundation.framework in Frameworks */,
+				A7CB365A14EB18CC00C50A61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CB364614EB18CC00C50A61 = {
+			isa = PBXGroup;
+			children = (
+				A7CB365B14EB18CC00C50A61 /* screammachine */,
+				A7CB365414EB18CC00C50A61 /* Frameworks */,
+				A7CB365214EB18CC00C50A61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CB365214EB18CC00C50A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB365114EB18CC00C50A61 /* screammachine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CB365414EB18CC00C50A61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB365514EB18CC00C50A61 /* UIKit.framework */,
+				A7CB365714EB18CC00C50A61 /* Foundation.framework */,
+				A7CB365914EB18CC00C50A61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7CB365B14EB18CC00C50A61 /* screammachine */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB366414EB18CC00C50A61 /* AppDelegate.h */,
+				A7CB366514EB18CC00C50A61 /* AppDelegate.m */,
+				A7CB366714EB18CC00C50A61 /* ViewController.h */,
+				A7CB366814EB18CC00C50A61 /* ViewController.m */,
+				A7CB366A14EB18CC00C50A61 /* ViewController.xib */,
+				A7CB365C14EB18CC00C50A61 /* Supporting Files */,
+			);
+			path = screammachine;
+			sourceTree = "<group>";
+		};
+		A7CB365C14EB18CC00C50A61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB365D14EB18CC00C50A61 /* screammachine-Info.plist */,
+				A7CB365E14EB18CC00C50A61 /* InfoPlist.strings */,
+				A7CB366114EB18CC00C50A61 /* main.m */,
+				A7CB366314EB18CC00C50A61 /* screammachine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CB365014EB18CC00C50A61 /* screammachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CB366F14EB18CC00C50A61 /* Build configuration list for PBXNativeTarget "screammachine" */;
+			buildPhases = (
+				A7CB364D14EB18CC00C50A61 /* Sources */,
+				A7CB364E14EB18CC00C50A61 /* Frameworks */,
+				A7CB364F14EB18CC00C50A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = screammachine;
+			productName = screammachine;
+			productReference = A7CB365114EB18CC00C50A61 /* screammachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CB364814EB18CC00C50A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A7CB364B14EB18CC00C50A61 /* Build configuration list for PBXProject "screammachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7CB364614EB18CC00C50A61;
+			productRefGroup = A7CB365214EB18CC00C50A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CB365014EB18CC00C50A61 /* screammachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CB364F14EB18CC00C50A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CB366014EB18CC00C50A61 /* InfoPlist.strings in Resources */,
+				A7CB366C14EB18CC00C50A61 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CB364D14EB18CC00C50A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CB366214EB18CC00C50A61 /* main.m in Sources */,
+				A7CB366614EB18CC00C50A61 /* AppDelegate.m in Sources */,
+				A7CB366914EB18CC00C50A61 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7CB365E14EB18CC00C50A61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CB365F14EB18CC00C50A61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7CB366A14EB18CC00C50A61 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CB366B14EB18CC00C50A61 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CB366D14EB18CC00C50A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7CB366E14EB18CC00C50A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CB367014EB18CC00C50A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "screammachine/screammachine-Prefix.pch";
+				INFOPLIST_FILE = "screammachine/screammachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7CB367114EB18CC00C50A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "screammachine/screammachine-Prefix.pch";
+				INFOPLIST_FILE = "screammachine/screammachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CB364B14EB18CC00C50A61 /* Build configuration list for PBXProject "screammachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CB366D14EB18CC00C50A61 /* Debug */,
+				A7CB366E14EB18CC00C50A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CB366F14EB18CC00C50A61 /* Build configuration list for PBXNativeTarget "screammachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CB367014EB18CC00C50A61 /* Debug */,
+				A7CB367114EB18CC00C50A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CB364814EB18CC00C50A61 /* Project object */;
+}
