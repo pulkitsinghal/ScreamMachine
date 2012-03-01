@@ -1,0 +1,5 @@
+<h1>Overview</h1>
+Students at techJOYnT learn app development for Android platforms and iPhone. Students will be introduced to and learn graphics, game design, and the current uses of smart phone apps. Student will explore the possibilities that smart phone apps have in today’s society and possible future uses.
+
+<h1>Introduction</h1>
+ScreamMachine is a memory game. You have to run around collecting a picture of your friends/family and ofcourse their screams! Once you fill in all the empty tiles on the screen, its time to play. The tiles start out upside down and when you click on one, it plays a recorded scream and gives you a chance to guess who the person could be. If you guess correctly then you hear a pleasant *ding* sound and your score goes up. If you are wrong then the *buzzer* sounds and your score goes down.
