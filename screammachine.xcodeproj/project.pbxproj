@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A75849AD14FFA6650052299E /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A75849AC14FFA6650052299E /* UIImage+Utility.m */; };
 		A7CB365614EB18CC00C50A61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB365514EB18CC00C50A61 /* UIKit.framework */; };
 		A7CB365814EB18CC00C50A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB365714EB18CC00C50A61 /* Foundation.framework */; };
 		A7CB365A14EB18CC00C50A61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB365914EB18CC00C50A61 /* CoreGraphics.framework */; };
@@ -18,17 +19,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A75849AB14FFA6650052299E /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		A75849AC14FFA6650052299E /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 		A7CB365114EB18CC00C50A61 /* screammachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screammachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CB365514EB18CC00C50A61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7CB365714EB18CC00C50A61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7CB365914EB18CC00C50A61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A7CB365D14EB18CC00C50A61 /* screammachine-Info.plist */ = {isa = PBXFileReference; path = "screammachine-Info.plist"; sourceTree = "<group>"; };
+		A7CB365D14EB18CC00C50A61 /* screammachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "screammachine-Info.plist"; sourceTree = "<group>"; };
 		A7CB365F14EB18CC00C50A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7CB366114EB18CC00C50A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7CB366314EB18CC00C50A61 /* screammachine-Prefix.pch */ = {isa = PBXFileReference; path = "screammachine-Prefix.pch"; sourceTree = "<group>"; };
-		A7CB366414EB18CC00C50A61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7CB366314EB18CC00C50A61 /* screammachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "screammachine-Prefix.pch"; sourceTree = "<group>"; };
+		A7CB366414EB18CC00C50A61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7CB366514EB18CC00C50A61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7CB366714EB18CC00C50A61 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A7CB366714EB18CC00C50A61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A7CB366814EB18CC00C50A61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A7CB366B14EB18CC00C50A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A75849AA14FFA65D0052299E /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				A75849AB14FFA6650052299E /* UIImage+Utility.h */,
+				A75849AC14FFA6650052299E /* UIImage+Utility.m */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
 		A7CB364614EB18CC00C50A61 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 		A7CB365B14EB18CC00C50A61 /* screammachine */ = {
 			isa = PBXGroup;
 			children = (
+				A75849AA14FFA65D0052299E /* utility */,
 				A7CB366414EB18CC00C50A61 /* AppDelegate.h */,
 				A7CB366514EB18CC00C50A61 /* AppDelegate.m */,
 				A7CB366714EB18CC00C50A61 /* ViewController.h */,
@@ -163,6 +176,7 @@
 				A7CB366214EB18CC00C50A61 /* main.m in Sources */,
 				A7CB366614EB18CC00C50A61 /* AppDelegate.m in Sources */,
 				A7CB366914EB18CC00C50A61 /* ViewController.m in Sources */,
+				A75849AD14FFA6650052299E /* UIImage+Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +288,7 @@
 				A7CB367114EB18CC00C50A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
